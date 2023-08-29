@@ -1,0 +1,55 @@
+.nav-link:link{
+  color: black;
+}
+
+.nav-link:visited{
+  color: black;
+}
+.nav-link:hover{
+  color: blue;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+  color: blue;
+  text-indent: 50px;
+}
+
+h2{
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /*border: 6px solid black;*/
+}
+
+table{
+  border: 6px solid;
+  background-image: url(BGPic.jpg);
+  background-size: contain;
+}
+img{
+  float: right;
+}
+
+@keyframes fade-in{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.fade-in{
+  animation: fade-in 3s forwards;
+}
+.SignUp{
+  border: 5px solid black;
+  background-color: red;
+  color: black;
+  padding-bottom: 5px;
+}
+.SignUp h2{
+  color: black;
+}
+
+footer{
+  background-color: green;
+}
