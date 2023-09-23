@@ -60,7 +60,7 @@ img{
   min-height: calc(100vh - 4.25rem);
   place;
 } */
-/* #slider{
+#slider{
   position: relative;
   width: 500px;
   height: 400px;
@@ -96,19 +96,19 @@ button.pictures{
   transition: all 200ms ease-in-out;
 }
 
-button:hover{
+button.pictures:hover{
   background: steelblue;
 }
 
-buttons#prev{
+button.pictures#prev{
   left: -35px;
   padding: 7px 17px 7px 15px;
 }
 
-button#next{
+button.pictures#next{
   right: -35px;
-  padding: 7px 15px 7px 17px;
-} */
+  padding: 7px 15px 7px;
+}
 /* .dark-mode{
   background-color: #333;
   color: #f0f0f0;
