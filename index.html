@@ -5,79 +5,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="HTML, CSS, JavaScript, Web Development">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./CSS/style.css">
   <link rel="icon" type="image/x-icon" href="Media/favicon.ico">
+  <script src="./Javascript/"></script>
   <title>About John Ritter</title>
 </head>
 
 <body>
-  <header>
-    <div class="p-5 text-center" style="background-color: green;">
-      <h1>John Ritter</h1>
-    </div>
-    <nav class="navbar navbar-expand-sm " style="background-color: white;">
-      <div class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="About-Us.html">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Contact-Us.html">Contact Us</a>
-        </li>
-    </nav>
-  </header>
-  <main>
-    <div class="fade-in">
-      <table>
-        <tr>
-          <td>
-            <h2>Who Am I?</h2>
-            <p><span style="color: red;"> <strong>I'm from Lafayette, Indiana</strong>, was a swimmer most of my life, and when I wasn't doing that, I was either playing in a band, or was playing video games. I went to college originally for computer science, but left after a couple years, and moved to Tennessee to tak part in a men's discipleship program called the Narrow Gate Foundation. I spent the next several years working various jobs, and achieving my CompTIA A+ certification and working various jobs doing helpdesk work.</span> </p><br>
-            <p> When I'm not working, you're likely to find me checking out a local brewery, or at a metal concert. If you wanna get me talking, bring up anything Star Trek related, video games, Survivor, or pro wrestling. </p><br>
-            <br>
-            <h2>Why Am I Here?</h2>
-            <p> I'm going through this class and starting this journey out of an interest of closure, aznd I hope it will lead to a successful career in development. Not sure what my plans are beyond that, but I'm hoping to finally find something stable that will allow me to be in a position to continue in a career in web development. Continue to follow along to watdch my journey as I learn more about HTML, JavaScript, CSS, and more. </p>
-          </td>
-        </tr>
-        <tr>
-          <div class="image">
-            <img src="Media/profile.jpg" height="125" width="125" alt="John Ritter Picture">
+  <div class="container">
+    <header>
+      <div class="p-5 text-center" style="background-color: green;">
+        <h1>John Ritter</h1>
+      </div>
+      <nav class="navbar navbar-expand-sm " style="background-color: white;">
+        <div class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About-Us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contact-Us.html">Contact Us</a>
+          </li>
+      </nav>
+    </header>
+    <h2 class="mode-status">Currently in Light Mode</h2>
+    <label class="toggle-switch">
+      <input type="textbox" id="mode-toggle">
+      <span class="slider"></span>
+    </label>
+    <main>
+      <div class="fade-in">
+        <table>
+          <tr>
+            <td>
+              <h2>Who Am I?</h2>
+              <p> I'm from Lafayette, Indiana, was a swimmer most of my life, and when I wasn't doing that, I was either
+                playing in a band, or was playing video games. I went to college originally for computer science, but
+                left after a couple years, and moved to Tennessee to tak part in a men's discipleship program called the
+                Narrow Gate Foundation. I spent the next several years working various jobs, and achieving my CompTIA A+
+                certification and working various jobs doing helpdesk work.</span> </p><br>
+              <p> When I'm not working, you're likely to find me checking out a local brewery, or at a metal concert. If
+                you wanna get me talking, bring up anything Star Trek related, video games, Survivor, or pro wrestling.
+              </p><br>
+              <br>
+              <h2>Why Am I Here?</h2>
+              <p> I'm going through this class and starting this journey out of an interest of closure, aznd I hope it
+                will lead to a successful career in development. Not sure what my plans are beyond that, but I'm hoping
+                to finally find something stable that will allow me to be in a position to continue in a career in web
+                development. Continue to follow along to watdch my journey as I learn more about HTML, JavaScript, CSS,
+                and more. </p>
+            </td>
+          </tr>
+          <tr>
+            <div class="image">
+              <img src="./Media/profile.jpg" height="125" width="125" alt="John Ritter Picture">
+            </div>
+          </tr>
+        </table>
+      </div>
+      <div class="projects">
+      </div>
+      <div class="contact">
+        <h2>Contact Me For More Info</h2>
+        <form action="#">
+          <div class="mb-3 mt-3">
+            <label for="fName" class="form-label"><b>First Names</b></label>
+            <input type="text" class="form-control" placeholder="Enter First Name" name="fName">
           </div>
-        </tr>
-      </table>
-    </div>
-    <div class="projects">
-    </div>
-    <div class="contact">
-      <h2>Contact Me For More Info</h2>
-    <form action="#">
-      <div class="mb-3 mt-3">
-        <label for="fName" class="form-label"><b>First Names</b></label>
-        <input type="text" class="form-control" placeholder="Enter First Name" name="fName">
+          <div class="mb-3">
+            <label for="lName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" placeholder="Enter Last Name" name="lName">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Email Address" name="email">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
-      <div class="mb-3">
-        <label for="lName" class="form-label">Last Name</label>
-        <input type="text" class="form-control" placeholder="Enter Last Name" name="lName">
-      </div>
-      <div class="mb-3">
-        <label for="email" class="form-label">Email Address</label>
-        <input type="email" class="form-control" id="email" placeholder="Enter Email Address" name="email">
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-    </div>
-    
+
     </main>
     <footer>
       <a href="https://www.linkedin.com/in/john-ritter-90896a34/" target="_blank">
         <img src="Media/Linkedin.png" height="75" width="75" alt="LinkedIn Logo"></a>
     </footer>
-   
-      
+  </div>
+
+
 </body>
 
 </html>
