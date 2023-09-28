@@ -58,7 +58,6 @@ img{
   display: grid;
   width: 100%;
   min-height: calc(100vh - 4.25rem);
-  place;
 } 
 #slide{
   position: relative;
@@ -109,7 +108,7 @@ button.pictures#next{
   right: -35px;
   padding: 7px 15px 7px;
 }
-.dark-mode{
+/* .dark-mode{
   background-color: #333;
   color: #f0f0f0;
   transition: all 0.4s ease-in;
@@ -164,4 +163,4 @@ input:focus + .slider{
 
 input:checked + .slider:before{
   transform: translateX(1.63rem);
-} 
+}  */
