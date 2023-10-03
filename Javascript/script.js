@@ -9,9 +9,8 @@
 
 //     modeStatus.innerText = "Currently in " + modeMessage;
 // }
+//modeToggle.addEventListener('click', toggleMode);
 //Image Slideshow Code
-modeToggle.addEventListener('click', toggleMode);
-
 const images = document.querySelectorAll('#slide img');
 const prevImage = document.getElementById('prev');
 const nextImage = document.getElementById('next');
