@@ -128,15 +128,18 @@
       <form id="contact-form" action="#">
         <div class="mb-3 mt-3">
           <label for="fName" class="form-label"><b>First Names</b></label>
-          <input type="text" class="form-control" placeholder="Enter First Name" name="fName">
+          <input type="text" class="form-control" placeholder="Enter First Name" name="fName" required>
+          <small class='error-msg invalid-feedback'>Required</small>
         </div>
         <div class="mb-3">
           <label for="lName" class="form-label">Last Name</label>
-          <input type="text" class="form-control" placeholder="Enter Last Name" name="lName">
+          <input type="text" class="form-control" placeholder="Enter Last Name" name="lName" required>
+          <small class="error-msg invalid-feedback">Required</small>
         </div>
         <div class="mb-3">
           <label for="email" class="form-label">Email Address</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter Email Address" name="email">
+          <input type="email" class="form-control" id="email" placeholder="Enter Email Address" name="email" required>
+          <small class="error-msg invalid-feedback">Required</small>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
