@@ -114,3 +114,20 @@ taskList.addEventListener('click', (e) => {
     removeTask(taskId);
   }
 });
+
+const form = document.getElementById('contact-form');
+const submitButton = document.querySelector('.submit');
+const successMessage = document.getElementById('form-submitted-msg');
+
+const formElements = [...formElements];
+
+const allInputsValid = () => {
+    const valid = formElements.every((element) =>{
+        if(element.nodename === 'SELECT'){
+            return element.value !== 'Please select an option';
+        }else{
+            return element.checkValidity();
+        }
+    })
+    return valid;
+}
