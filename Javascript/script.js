@@ -130,13 +130,14 @@ const allInputsValid = () => {
       return element.checkValidity()
     }
   })
-
+//  console.log(valid);
 
   return valid
 }
 
 // Define a function to handle changes to any form element
 const handleChange = () => {
+  // console.log("handle change");
   // Use the forEach() function to execute the provided function once for each element in the formElements array
   formElements.forEach((element) => {
     // If the element is invalid and is not a button, a select dropdown, a checkbox, or a radio button, style it with a red border and red text
@@ -189,8 +190,8 @@ const handleChange = () => {
           && element.value === 'Please select an option'
     ) {
       element.style.borderColor = 'red';
-      element.nextElementSibling.style.color = 'red';
-      element.nextElementSibling.style.display = 'block';
+      // element.nextElementSibling.style.color = 'red';
+      // element.nextElementSibling.style.display = 'block';
       element.previousElementSibling.style.color = 'red';
     }
 
@@ -199,8 +200,8 @@ const handleChange = () => {
           && element.value !== 'Please select an option'
     ) {
       element.style.borderColor = '#CED4DA';
-      element.nextElementSibling.style.color = '#CED4DA';
-      element.nextElementSibling.style.display = 'none';
+      // element.nextElementSibling.style.color = '#CED4DA';
+      // element.nextElementSibling.style.display = 'none';
       element.previousElementSibling.style.color = '#212529';
     }
   })
@@ -217,6 +218,7 @@ const handleChange = () => {
 const handleSubmit = (e) => {
   // Prevent the default form submission behavior
   e.preventDefault()
+  // console.log("handle Submit");
 
   // If all form elements are valid after the form submission, display a success message, reset the form, and disable the submit button
   if (allInputsValid()) {

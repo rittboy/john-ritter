@@ -121,10 +121,12 @@ button.pictures#next{
 
 #contact-form{
   width: 40%;
+  padding: 40px;
 }
 
 .input-group{
   margin-bottom: 1.5rem;
+  /* padding: 40px; */
 }
 
 .input-group:not(.radio):not(.checkbox){
