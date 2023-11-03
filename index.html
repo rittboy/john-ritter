@@ -31,9 +31,14 @@
             <a class="nav-link" href="Contact-Us.html">Contact Us</a>
           </li>
       </nav>
-      <div id="clock">
+      <div id="text">
         <script>
-          
+          var msg=document.getElementById("text");
+          function clock(){
+            const myDate = new Date();
+            text.innerHTML = myDate.toLocaleTimeString();
+          }
+          clock();
         </script>
     </header>
     <!-- <h2 class="mode-status">Currently in Light Mode</h2>
