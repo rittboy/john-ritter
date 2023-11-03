@@ -118,7 +118,9 @@ button.pictures#next{
   color: #fff;
   display: none;
 }
-
+#slide{
+  margin-top: 50px;
+}
 #contact-form{
   width: 40%;
   padding: 40px;
@@ -182,6 +184,11 @@ legend{
   text-align: center;
   /* text-decoration: underline; */
   font-weight: bold;
+}
+
+#map{
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* .dark-mode{
