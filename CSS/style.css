@@ -118,6 +118,7 @@ button.pictures#next{
   color: #fff;
   display: none;
 }
+/*adding more space between sections of website*/
 #slide{
   margin-top: 50px;
 }
@@ -178,14 +179,14 @@ legend{
 .error-msg{
   display: none;
 }
-
+/*Styling for clock display, makes it a little more readable*/
 #time{
   padding-left: 15px;
   text-align: center;
   /* text-decoration: underline; */
   font-weight: bold;
 }
-
+/*Styling for map display, provides more of a gap between sections of website*/
 #map{
   margin-top: 50px;
   margin-bottom: 50px;
