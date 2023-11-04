@@ -37,7 +37,8 @@
             <a class="nav-link" href="Contact-Us.html">Contact Us</a>
           </li>
       </nav>
-      <!--Adding Asynchronous function into web code, displaying clock that updates everytime website is refreshed-->
+      <!--Adding Asynchronous function into web code, displaying clock that updates everytime website is refreshed
+      takes current time and prints it out on screen-->
       <div id="time"></div>
       <script>
         var msg=document.getElementById("time");
@@ -89,7 +90,10 @@
       <button class="pictures" id="prev">&lt;</button>
       <button class="pictures" id="next">&gt;</button>
     </div>
-    <!--Added leaflet map api to page, oto show api usage within code-->
+    <!--Added leaflet map api to page, oto show api usage within code
+      dropped map marker in Asheville, NC, and drew circle around map marker, also added 
+      pop up explaining why it was chosen
+    -->
     <div id="map" style="width: 500px; height: 500px;"></div>
     <script>
       const map = L.map('map').setView([35.595909, -82.550041], 13);
@@ -100,7 +104,7 @@
       }).addTo(map);
       var marker = L.marker([35.595009, -82.550041]).addTo(map);
       var circle = L.circle([35.595009, -82.550041], {radius: 300}).addTo(map);
-      marker.bindPopup("One of my favorite towns to visit!!");
+      marker.bindPopup("Asheville, NC: One of my favorite towns to visit!!");
     </script>
     <h2>To Do List</h2>
     <div id="To-Do">
