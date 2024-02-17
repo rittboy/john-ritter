@@ -191,6 +191,16 @@ legend{
   margin-top: 50px;
   margin-bottom: 50px;
 }
+/*Styling for time display, more advanced then previous display*/
+#dayIntro{
+  font-size: 40px;
+  font-weight: 600px;
+  letter-spacing: 3px;
+  border: 7px solid rgb(17, 129, 134);
+  border-radius: 10px;
+  margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
 
 /* .dark-mode{
   background-color: #333;
