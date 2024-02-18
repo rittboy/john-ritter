@@ -198,7 +198,7 @@ legend{
   letter-spacing: 3px;
   border: 7px solid rgb(17, 129, 134);
   border-radius: 10px;
-  margin: 20px;
+  margin-top: 50px;
   font-family: 'Times New Roman', Times, serif;
   padding: 15px;
   background: linear-gradient(180deg, #a8b9d3, rgb(173, 227, 229));
@@ -230,6 +230,7 @@ legend{
   color: #fff;
   font-size: 70px;
   font-weight: 600;
+  margin:  10px;
   letter-spacing: 1px;
   font-family: "Orbitron", sans-serif;
   background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
