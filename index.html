@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="HTML, CSS, JavaScript, Web Development">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
@@ -38,12 +41,12 @@
       <div id="time">
       </div>
       <script>
-        var msg=document.getElementById('time');
-        function clock(){
+        var msg = document.getElementById('time');
+        function clock() {
           const myDate = new Date();
 
           time.innerHTML = myDate.toLocaleTimeString();
-          
+
         }
         clock();
       </script>
@@ -54,34 +57,41 @@
       <span class="slider"></span>
     </label>  -->
 
-    <div class="fade-in">
-      <table>
-        <tr>
-          <td>
-            <h2>Who Am I?</h2>
-            <p> I'm from Lafayette, Indiana, was a swimmer most of my life, and when I wasn't doing that, I was either
-              playing in a band, or was playing video games. I went to college originally for computer science, but
-              left after a couple years, and moved to Tennessee to tak part in a men's discipleship program called the
-              Narrow Gate Foundation. I spent the next several years working various jobs, and achieving my CompTIA A+
-              certification and working various jobs doing helpdesk work.</span> </p><br>
-            <p> When I'm not working, you're likely to find me checking out a local brewery, or at a metal concert. If
-              you wanna get me talking, bring up anything Star Trek related, video games, Survivor, or pro wrestling.
-            </p><br>
-            <br>
-            <h2>Why Am I Here?</h2>
-            <p> I'm going through this class and starting this journey out of an interest of closure, aznd I hope it
-              will lead to a successful career in development. Not sure what my plans are beyond that, but I'm hoping
-              to finally find something stable that will allow me to be in a position to continue in a career in web
-              development. Continue to follow along to watdch my journey as I learn more about HTML, JavaScript, CSS,
-              and more. </p>
-          </td>
-        </tr>
-        <tr>
-          <div class="image">
-            <img src="./Media/profile.jpg" height="125" width="125" alt="John Ritter Picture">
-          </div>
-        </tr>
-      </table>
+    <div class="faq-container fade-in">
+      <div class="faq active">
+        <h3 class="faq-title">
+          Who Am I?
+        </h3>
+        <p class="faq-text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, quam ad doloremque qui alias rerum aliquid,
+          et porro eum consectetur sapiente animi sequi aperiam tempora omnis doloribus vitae consequuntur corporis
+          possimus, maxime repellat provident quod explicabo assumenda. Delectus tempore totam itaque repudiandae
+          necessitatibus sequi obcaecati cumque ipsam atque officiis porro optio quidem id reprehenderit recusandae,
+          mollitia provident culpa dolor. Enim, dicta quis reiciendis explicabo quidem nihil repudiandae nam aliquid
+          eligendi alias neque. Recusandae, dolor distinctio? Itaque repellat voluptatibus illo dolorum voluptatum
+          voluptate. Veniam, sapiente quis suscipit labore quidem corrupti, eum laborum distinctio aliquid dolore id
+          obcaecati dolorem dolores, officia repellendus?
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="faq active">
+        <h3 class="faq-title">
+          Why Am I Here?
+        </h3>
+        <p class="faq-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut recusandae quibusdam nulla beatae perferendis
+          perspiciatis saepe molestiae rem! Nam obcaecati consequatur dolorum aliquid rerum iure quam libero provident
+          qui odio dignissimos veniam soluta, quos facere, quia debitis pariatur doloremque excepturi culpa et. Ipsum
+          beatae nesciunt illum aliquid ullam! Sit, earum.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
     </div>
     <div id="slide">
       <img src="./Media/ContortionistPic.jpg">
